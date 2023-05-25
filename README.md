@@ -4,12 +4,12 @@
 ## Preliminaries
 This repository assumes the user has some familiarity using LaTeX, VS Code and EndNote.
 
-For information on how to use are install the required software please visit:
+For information on how to use or install the required software please visit:
 * [VS Code](https://code.visualstudio.com/)
 * [EndNote](https://endnote.com/)
 * [LaTeX](https://www.latex-project.org/)/[LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
 
-<sup>In this repo we will be using LaTeX Workshop</sup>
+<sup>In this repository we will be using LaTeX Workshop</sup>
 
 ## Set Up 
 ### LaTeX Workshop
