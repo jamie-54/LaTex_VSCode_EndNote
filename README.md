@@ -28,12 +28,11 @@ On VS Code, install [LaTeX Workshop](https://marketplace.visualstudio.com/items?
 
 #### Configure
 
-After installing LaTeX workshop Requires some configuration. To do this: 
+After installing, LaTeX workshop Requires some configuration. To do this: 
 * Open the VS Code Command (`Shift` + `Ctrl` + `P` Windows) or (`Shift` + `Cmd` + `P` macOS) or (F1)
 * Search `Open User Settings JSON`
 * Click on the file
 * Now copy and paste the following inside the brackets {} of your `settings.json` file
-
 
 <details><summary>JSON</summary>
   <p>
