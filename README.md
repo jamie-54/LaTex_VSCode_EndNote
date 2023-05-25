@@ -175,6 +175,19 @@ This means when you `\cite{}` the reference in you LaTeX file you use `#NO` from
 
 <sup>Note: You can manually  change the Unique Reference Key in VS Code if you want but personally I would not recommend this. If you update your EndNote library and want to export it again you will have to redo these changes</sup>
 
+## LaTeX and Git
+Since you are now using VS Code to edit your LaTeX files it is easy use Git to keep your files save.
+
+```
+git init
+git add your_files_here
+git commit -m "The commit message"
+git remote add origin https://github.com/username/repo
+git push origin main
+```
+
+for more advice see [GitHub](https://docs.github.com/en/get-started)
+
 ## Optional VS Code Extensions 
 * [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 
