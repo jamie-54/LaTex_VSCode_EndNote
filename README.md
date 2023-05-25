@@ -199,3 +199,9 @@ After installing, Code Spell Checker requires the correct languge configuration.
 
 <sup>If your `settings.json` already has code in it add a `,` to the end of the last line before `}` and copy the new code after the `,` and before `}`</sup>
 
+## disclaimer
+I am not an expert in VS Code, LaTeX or EndNote. I am just a PhD student trying to make it easier for students to refrence using LaTeX.
+
+Please feel free to share and add any suggestions as an issue. 
+If you found this helpful please star thanks.
+
