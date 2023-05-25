@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2023)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Latex_template.aux
+The style file: ieeetr.bst
+Database file #1: Example_EndNote_To_BibTeX.bib
+You've used 4 entries,
+            1876 wiz_defined-function locations,
+            511 strings with 4015 characters,
+and the built_in function-call counts, 1137 in all, are:
+= -- 117
+> -- 30
+< -- 0
++ -- 12
+- -- 8
+* -- 74
+:= -- 160
+add.period$ -- 5
+call.type$ -- 4
+change.case$ -- 3
+chr.to.int$ -- 0
+cite$ -- 4
+duplicate$ -- 60
+empty$ -- 111
+format.name$ -- 8
+if$ -- 287
+int.to.chr$ -- 0
+int.to.str$ -- 4
+missing$ -- 5
+newline$ -- 16
+num.names$ -- 4
+pop$ -- 10
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 44
+stack$ -- 0
+substring$ -- 84
+swap$ -- 28
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 10
+width$ -- 5
+write$ -- 43

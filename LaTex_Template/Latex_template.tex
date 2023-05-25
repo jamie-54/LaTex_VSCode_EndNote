@@ -1,0 +1,65 @@
+\documentclass[onecolumn]{IEEEconf}
+
+\usepackage{amsmath,amsfonts,amssymb,amsbsy,mathrsfs,mathtools}
+\usepackage{units}
+\usepackage{geometry}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{hyperref}
+
+\input{definitions.tex}
+
+\title{Template for LaTeX with VS Code and EndNote}
+\author{J.Rainey}
+\date{May 2023}
+
+\begin{document}
+
+\maketitle
+
+
+\section{Introduction}
+As this is a template/example I do not know what to write. I Could ask ChatGPT but cba.
+
+\subsection{What Is a PhD}
+A PhD is is  not well-defined qualification\cite{RN6}. 
+
+\section{MPC}
+Model Predictive Control (MPC) is an advanced control technique used in engineering and control systems 
+to optimize the performance of a dynamic system over a specific time horizon \cite{RN1}.
+
+Example:
+\begin{subequations}
+    \begin{align}
+        \mathbb{P}(x)
+        {}:{}
+        \minimise_{u_0, \ldots, u_{N-1}}
+        &
+        \sum_{t=0}^{N-1} \ell(x_t, u_t) + V_f(x_N),
+        \\
+        \text{subject to: }
+        &
+        x_{t+1} {}={} f(x_t, u_t), t\in \N_{[0, N-1]},
+        \\
+        &
+        x_{\min} \leq x_t \leq x_{\max}, t\in\N_{[1, N]},
+        \\
+        &
+        u_{\min} \leq u_t \leq u_{\max}, t\in\N_{[0, N-1]},
+        \\
+        &
+        x_0 = x.
+    \end{align}
+\end{subequations}
+
+
+
+\subsection{SMPC}
+Stochastic Model Predictive Control (MPC) is a control technique that incorporates probabilistic 
+descriptions of uncertainties into the optimization problem and is an extension of traditional 
+Model Predictive Control (MPC) \cite{RN8}, \cite{RN3}.  
+
+
+\bibliographystyle{ieeetr}
+\bibliography{Example_EndNote_To_BibTeX} %Match What exported EndNote .bib file is saved as
+
+\end{document}
