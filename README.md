@@ -15,7 +15,7 @@ For information on how to use or install the required software please visit:
 ### LaTeX Workshop
 
 On VS Code, install [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) extension. To do this: 
-* Click `Extensions` on the primary side bar (Ctrl+Shift+X) or (F1)
+* Click `Extensions` on the primary side bar (Ctrl+Shift+X)
 * Search `LaTeX`
 * Click `LaTeX Workshop`
 * Click `Install`
