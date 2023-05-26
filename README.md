@@ -163,7 +163,7 @@ This is the only two files you need to create to reference using EndNote, the re
 ### Adding Bibliography
 At the bottom of the `Latex_template.tex` is the `\bibliographystyle{ieeetr}` this is the reference style you want to use. Below this is the `\bibliography{Example_EndNote_To_BibTeX}` the part inside `{}` should match the name of the exported EndNote .bib file e.g `Example_EndNote_To_BibTeX`
 
-When you build your LaTeX project, the bibliography will be automatically generated at the bottom of your LaTeX file only using the correct reference used from `YOUR_FILE_NAME.bib` will be used therefore it does not matter if you export all your EndNote References.
+When you build your LaTeX project, the bibliography will be automatically generated at the bottom of your LaTeX file only using the correct reference used from `YOUR_FILE_NAME.bib` therefore it does not matter if you export all your EndNote References.
 
 ### Adding references
 When you add a new reference to EndNote it automatically assigns it a number `#NO` (seen at the top of the reference when clicked in EndNote)
