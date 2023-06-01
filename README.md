@@ -165,7 +165,7 @@ At the bottom of the `Latex_template.tex` is the `\bibliographystyle{ieeetr}` th
 
 When you build your LaTeX project, the bibliography will be automatically generated at the bottom of your LaTeX file only using the correct reference used from `YOUR_FILE_NAME.bib` therefore it does not matter if you export all your EndNote References.
 
-### Adding references
+### Adding References
 When you add a new reference to EndNote it automatically assigns it a number `#NO` (seen at the top of the reference when clicked in EndNote)
 
 When using Output style: `BibTeX Export` on EndNote it assign `RN` followed by the number above as the Unique Reference Key eg `RN1` `RN54`
@@ -173,6 +173,11 @@ When using Output style: `BibTeX Export` on EndNote it assign `RN` followed by t
 This means when you `\cite{}` the reference in you LaTeX file you use `#NO` from EndNote that you are referencing e.g `\cite{RN1}`
 
 <sup>Note: You can manually  change the Unique Reference Key in VS Code if you want but personally I would not recommend this. If you update your EndNote library and want to export it again you will have to redo these changes</sup>
+
+## Common Issues 
+When trying to build if you get an error like `There were undefined references` there is a good chance something is wrong with one of your references in your `.bib` file exported from End Note, for example it could be using a sign `&` instead of `and`.
+
+To overcome this issue check the generated `.bib` file (e.g `Tittle_of_your_tex_file.bib`) for symbols in your references. If symbols are found I would recommend fixing the EndNote reference (that way its fixed if used in other projects at a later date) and re exporting it to the project folder. Then delete the generated `.bib` file (e.g `Tittle_of_your_tex_file.bib`) and try to rebuild. The issue should be resolved.
 
 ## LaTeX and Git
 Since you are now using VS Code to edit your LaTeX files it is easy use Git to keep your files save.
